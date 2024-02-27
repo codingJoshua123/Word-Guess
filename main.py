@@ -5,7 +5,8 @@ from words import *
 
 pygame.init()
 
-WIDTH, HEIGHT = 433, 600
+WIDTH, HEIGHT = 500, 500
+
 
 SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
 BACKGROUND = pygame.image.load("assets/Starting Tiles.png")
